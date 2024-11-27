@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212121;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -20px;
+    padding-bottom: 20px;
+
+}
+
+.menu>li {
+    position: relative;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.logo {
+    position: relative;
+    margin-left: 15px;
+    width: 5%;
+    height: 7%;
+    z-index: 1;
+    padding-top: 15px;
+
+}
+
+.search-container {
+    display: flex;
+    position: relative;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    border: 2px solid #6a6969;
+    border-radius: 4px;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+
+
+.bodyimag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+
+.conteinerimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    font-family: 'Abril Fatface', serif;
+}
+
+article {
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 1.9em;
+
+}
+
+.text {
+    position: absolute;
+    justify-content: center;
+    top: 20%;
+    color: rgb(237, 232, 232);
+    font-size: 1.8em;
+    text-shadow:
+        1px 1px 0 #979292,
+        -1px -1px 0 #555,
+        -2px -2px 1px rgba(199, 192, 192, 0.5),
+        2px 2px 1px rgba(255, 255, 255, 0.3);
+}
+
+h5 {
+    position: absolute;
+    justify-content: center;
+    color: rgb(22, 22, 24)
+}
+
+
+.containercarte {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-content: center;
+}
+
+h2,
+h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #f9f9f9;
+    margin-top: 40px;
+    border: 2px solid #d7d5d5;
+    padding: 20px;
+
+
+}
+
+.carte1 {
+    color: #fefefe;
+    padding: 20px;
+    line-height: 1.6;
+    margin: 50px;
+}
+
+.carte {
+    border: 2px solid #d7d5d5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+
+
+}
+
+.carte img {
+    width: 100%;
+}
+
+.carte button {
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(16, 16, 16);
+}
+
+.carte .btn1,
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fefefe;
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+.conteinerarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: #212121;
+    padding: 20px;
+    color: white;
+    border: 2px solid #fefefe;
+}
+
+.articlehome {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+
+.btn2 {
+    border: 2px solid #fefefe;
+}
+
+.imagekitcen img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #212121;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.icon ul.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.icon ul.icons li.social-icon {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.icon ul.icons li.social-icon a img.social {
+    width: 30px;
+    height: auto;
+}
+
+.copy {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.Mention {
+    text-decoration: none;
+    margin: 10px;
+    color: #f9f9f9;
+}
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: end;
+    margin-right: 10px;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+#toggle-menu:checked~.menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#toggle-menu:checked+.hamburger .line:nth-child(1) {
+    transform: rotate(55deg);
+    top: 7.5px;
+    position: relative;
+}
+
+#toggle-menu:checked+.hamburger .line:nth-child(2) {
+    transform: rotate(-60deg);
+    top: -6.3px;
+    position: relative;
+
+}
+
+#toggle-menu:checked+.hamburger .line:nth-child(3) {
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu>li {
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .hamburger {
+        display: flex;
+        margin-top: -55px;
+        padding: 5px;
+    }
+
+    #toggle-menu:checked~.menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        width: 15%;
+        padding: 5px;
+
+    }
+
+    .bodyimag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .search {
+        display: none;
+    }
+
+
+    .containercarte {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte1 {
+        max-width: 100%;
+    }
+
+    .carte1 .btn1,
+    .btn2 {
+        font-size: 20px;
+    }
+
+    .conteinerarticle {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .articlehome {
+        max-width: 100%;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+
+    }
+
+    .article {
+        font-size: 0.9em;
+        justify-content: left;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon ul.icons {
+        justify-content: left;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .copy {
+        margin-top: 10px;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .Mention {
+        justify-content: left;
+    }
+}
+
+
+
+@media screen and (max-width: 414px) {
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+}
+
+.carte1 {
+    max-width: 100%;
+}
+
+.containercarte {
+    margin-top: 20px;
+}
+
+.conteinerarticle {
+    padding: 10px;
+}
+
+.copy {
+    font-size: 0.7em;
+}
+
+.Mention,
+.search {
+    margin: 5px;
+    justify-content: center;
+}

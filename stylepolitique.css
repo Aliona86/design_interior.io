@@ -1,0 +1,20 @@
+.conteinertext {
+
+    padding-top: 150px;
+    color: white;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteinertext {
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .conteinertext {
+        flex-direction: column;
+
+    }
+}

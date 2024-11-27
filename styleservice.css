@@ -1,0 +1,73 @@
+.bodyimag {
+    margin-top: 40px;
+
+}
+
+.servicesconteiner {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.service1,
+.service2,
+.service3 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    width: 80%;
+    justify-content: space-between;
+    color: white;
+}
+
+.service1 .articl1,
+.service2 .articl2,
+.service3 .articl3 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service1 .image1,
+.service2 .image2,
+.service3 .image3 {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.service1 img,
+.service2 img,
+.service3 img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .bodyimag {
+        padding-top: 15px;
+    }
+
+    .servicesconteiner {
+        flex-direction: column;
+
+    }
+
+    .service1,
+    .service2,
+    .service3 {
+        flex-direction: column;
+
+    }
+
+    .service1 .articl1,
+    .service2 .articl2,
+    .service3 .articl3,
+    .service1 .image1,
+    .service2 .image2,
+    .service3 .image3 {
+        width: 100%;
+
+    }
+}
